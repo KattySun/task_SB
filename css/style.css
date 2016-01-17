@@ -1,0 +1,59 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+.container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.content {
+  text-align: center;
+}
+
+.button {
+  margin-bottom: 15px;
+  padding: 10px 35px;
+  font-size: 18px;
+  background: rgb(0, 187, 255);
+  color: #fff;
+  border: none;
+  border-right: 1px solid rgb(0, 128, 174);
+  border-bottom: 1px solid rgb(0, 128, 174);
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgb(0, 128, 174);
+}
+
+.table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td {
+  padding: 20px;
+  border: 1px solid rgb(0, 128, 174);
+}
+
+.table .highlight {
+  background: rgb(0, 187, 255);
+  color: #fff;
+}
+
+.message {
+  display: none;
+  color: #C52104;
+  font-weight: 600;
+}
+
+.result {
+  font-weight: 900;
+}
+
+.result, .message, .table {
+  font-size: 21px;
+}
