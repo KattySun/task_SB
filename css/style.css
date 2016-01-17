@@ -46,6 +46,12 @@ body {
 
 .message {
   display: none;
+  color: #C52104;
+  font-weight: 600;
+}
+
+.result {
+  font-weight: 900;
 }
 
 .result, .message, .table {

@@ -1,9 +1,10 @@
 'use strict';
+
 window.onload = function() {
-    var result = document.getElementById("result"),
-        message = document.getElementById("message"),
-        reset = document.getElementById("reset"),
-        table = document.getElementById("tableId"),
+    var result = document.getElementById('result'),
+        message = document.getElementById('message'),
+        reset = document.getElementById('reset'),
+        table = document.getElementById('tableId'),
         sum = new SumCells();
 
     function SumCells() {
@@ -26,7 +27,7 @@ window.onload = function() {
           that.sumItems = +that.sumItems.toFixed(10);
           result.innerHTML = that.sumItems;
         } else {
-          showMessage("Message: Type of this value is not Number");
+          showMessage('Значение не является числовым!');
         }
       };
       
@@ -53,9 +54,9 @@ window.onload = function() {
        * не корректных данных для суммирования.
        */
       function hideMessage() {
-        if (message.style.display != "none") {   
-          message.innerHTML = "";        
-          message.style.display = "none";
+        if (message.style.display != 'none') {   
+          message.innerHTML = '';        
+          message.style.display = 'none';
         } 
       }
 
@@ -65,9 +66,9 @@ window.onload = function() {
        * @param test Текст сообщения.
        */
       function showMessage(text) {
-        if (message.style.display != "block") {   
+        if (message.style.display != 'block') {   
           message.innerHTML = text;
-          message.style.display = "block";
+          message.style.display = 'block';
         }  
       }
 
